@@ -18,7 +18,7 @@ void print_json_file_compact(char *json, FILE *output_file);
 int is_whitespace(char c);
 
 int main() {
-    SetConsoleOutputCP(65001); // 设置输出字符集为UTF-8, 否则中文会乱码 如果你不显示乱码可以删除这一行
+
     // 输入JSON文件的路径文件名
     char filename[100];
     printf("请输入文件名称: ");
